@@ -1,0 +1,37 @@
+/*
+* Grace Fairchild
+* 3/6
+* CSS for Prom Dress 2
+*/
+
+/* The universal selcetor */
+
+* { 
+    
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: lightpink;
+    font-family: Helvetica; 
+}
+
+h1 { 
+    background-color: hotpink; /* color for background */
+    color: white; /* color of text */
+}
+
+p { /* type selector for ALL paragraphs */
+    color: white;
+}
+
+#coralText { /* use an ID to change text to red */
+    color: coral;   
+}
+
+.greyText { /* use a class to change text to grey in different kinds of elements */
+    color: grey;    
+}
